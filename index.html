@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div id="title">
+    <h1 style="color: white;"><u>SRIRAM KAZA DUM BIRYANI</u></h1>
+
+    <header class="header">
+        <a href="#"class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5epg8T_nBoQ_dR8kW4vpPcwIjpUYZTqVvag&usqp=CAU" height="200px"width="300px">
+         </a >
+         
+         <nav class="navbar">
+            <ul>
+               <li> <a class="a" href="#home">Home</a></li>
+                <li> <a class="a" href="#about">About</a></li>
+                 <li> <a class="a" href="#menu">Menu</a></li>
+              
+                <li> <a class="a" href="#videos">Videos</a></li>
+                 <li> <a class="a" href="#reviews">Reviews</a></li>
+                 <li> <a class="a" href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+    
+    </header>
+</div>
+    <section id="home">
+       <img src="https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?t=st=1691213701~exp=1691217301~hmac=14d0cfa19a7959a7e8a2accb678a7aaa830fb95d345f5a8cc11cf6bc3f65bcba&w=1060" width="100%">
+       
+    </section>
+    <section id="about">
+        <h1 style="size:100px;color:white; ">About Us</h1>
+        <div class="grid">
+            <div class="m">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipM9Fs_jl3JIDf3CQ1cK2qq9IbL7AcwCZhAIMf6F=s1360-w1360-h1020"  width="100%">
+
+
+            </div>
+            <div class="para">
+                
+                    <pre>SriRam's Kaza DumBiryani is the most famous oil less dum biryani.</pre><pre>It was originally established by Mr.Melam.Ramnajaneyulu.</pre>
+                    <pre>It was a local dhabha presented at kaza, near west godavari district.</pre>
+                    <pre>It is famous for it's auroma and taste.</pre><pre>The special fetaure is that they dont add so much oil.</pre>
+                    <pre> Don't abate your apetite.</pre>
+                     <pre>   Here Catering services are also available so that
+                        you can enjoy with whatever you have ordered.
+                    </pre>
+
+                    
+                    <pre> <a href="https://lh3.googleusercontent.com/p/AF1QipM9Fs_jl3JIDf3CQ1cK2qq9IbL7AcwCZhAIMf6F=s1360-w1360-h1020">To Know More About Us</a></pre>
+            </div>
+        </div>
+    </section >
+   <!--<section id="menu">
+    <h1 style="font-size: 50px;font-style:italic">MENU</h1>
+    <div class="grid">
+        <div class="item1">
+            <img  style="padding: 20px" src="biryanicss1.jpg" height="400px"width="400px">
+        </div>
+        <div class="item2">
+            <img style="padding: 20px"src="efrcss.jpg"height="400px"width="400px">
+        </div>
+        <div class="item3">
+            <img style="padding: 20px"src="lolipopcss.jpeg" height="400px" width="400px">
+        </div>
+        <div class="item4">
+            <img style="padding: 20px"src="chillichickencss.jpeg"height="400px"width="400">
+        </div>
+    </div>
+
+    </section>
+</section>-->
+<section id="menu">
+<h1 class="image" style="color: white;">Menu</h2>
+
+<div class="images">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6EraHHZ22qXkKVKnK3sgY35g6u0y5qx9_8NTKPEvc8jQrUDmFs6AOpqcCA8cMEvyZIU8&usqp=CAU" style="width:70%">
+  <img class="mySlides" src="chillichickencss.jpeg" style="width:70%">
+  <img class="mySlides" src="efrcss.jpg" style="width:70%">
+
+ <h3>click these arrows to view more</h3>
+  <button class="buttonleft" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="buttonright" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</section>
+<section id="videos" >
+    <h1 style="color: white;">Videos</h1>
+    <marquee><b>SLIDE FOR MORE VIDEOS</b></marquee>
+    <div id="move">
+    <div class="slide">
+        <video controls  width="70%">
+            <source src="video.mp4">
+        </video> 
+    </div>
+    <div class="slide">
+        <video controls  width="70%">
+            <source src="video1.mp4">
+        </video> 
+        <div class="slide">
+            <video controls  width="70%">
+                <source src="video3.mp4">
+            </video> 
+            </div>
+    </div>
+    </div>
+</section>
+<h1 style="color: white;">REVIEWS</h1>
+    <section id="reviews">
+       <div class="review">
+        <iframe src="https://www.top-rated.online/cities/P%C4%81lakollu/place/p/4048247/Kaza+Biryani+%28Sri+Ram+Palav+Centre%29?r" width="50%"height="700px">
+
+        </iframe>
+        </div>
+        </section>
+        <h1 style="color:white;">CONTACT</h1>
+        <section id="contact">
+       <div class="end">
+        <iframe src="https://www.indiainfo.net/place/sriram-dum-biryani-6258362" width="50%"height="700px" >
+        </iframe>
+        </div>
+</section>
+    
+
+</body>
+</html>
